@@ -9,15 +9,25 @@ Nowadays vehicles are increasing exponentially. We need to be extra careful abou
 State Farm Distracted Driver Detection has divided driving behavior into 10 classes. CLASS Description
 
 C0 Safe Driving
+
 C1 Texting - Right
+
 C2 Talking On The Phone - Right
+
 C3 Texting- left
+
 C4 Talking on the Phone- left
+
 C5 Operating The Radio
+
 C6 Drinking
+
 C7 Reaching Behind
+
 C8 Hair And Makeup
+
 C9 Talking To Passenger
+
 We will implement a deep learning model, which will predict the driver activities at the time of driving.
 
 In DL-CNN.ipynb: 
