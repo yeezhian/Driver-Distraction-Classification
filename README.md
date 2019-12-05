@@ -30,22 +30,20 @@ C9 Talking To Passenger
 
 We will implement a deep learning model, which will predict the driver activities at the time of driving.
 
-In DL-CNN.ipynb: 
+In DL-CNN-Vanilla-VGGnet.ipynb: 
 1. Got image from Kaggle competition.
 2. Plot Pie and Bar Chart.
 3. Preprocessing image for 10 classes.
 4. We utilized Data Augmentation method.
 5. Create a CNN model with 20 epochs. 
 6. Evaluate Accuracy. 
-
-In DL-VanillaAndVGG.ipynb
-1. Set up hyperparameter and variable.
-2. Import the given csv dataset.
-3. Split the train the test data.
-4. Data visualization and overview.
-5. Building Vanila Model with 4 Convolutional layer. 
-6. Evaluate the Accuracy.
-7. Improve the model with Data Augmentation.  
-8. Improve the model by VGG net transfer learning. 
+7. Set up hyperparameter and variable.
+8. Import the given csv dataset.
+9. Split the train the test data.
+10. Data visualization and overview.
+11. Building Vanila Model with 4 Convolutional layer. 
+12. Evaluate the Accuracy.
+13. Improve the model with Data Augmentation.  
+14. Improve the model by VGG net transfer learning. 
 
 
