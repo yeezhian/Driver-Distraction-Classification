@@ -46,4 +46,8 @@ In DL-CNN-Vanilla-VGGnet.ipynb:
 13. Improve the model with Data Augmentation.  
 14. Improve the model by VGG net transfer learning. 
 
+#Screenshots for Loss Vs Accuracy
 
+![Accuracy1](https://user-images.githubusercontent.com/22896571/70399560-f4919280-19d9-11ea-90ce-a6ff3504cc33.png)
+![Accuracy3](https://user-images.githubusercontent.com/22896571/70399565-fb200a00-19d9-11ea-8bde-2f6cea94bd15.png)
+![Accuracy2](https://user-images.githubusercontent.com/22896571/70399566-fc513700-19d9-11ea-97cb-dd4c0389ecd8.png)
