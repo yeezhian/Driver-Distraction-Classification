@@ -34,27 +34,31 @@ In DL-CNN-Vanilla-VGGnet.ipynb:
 1. Got image from Kaggle competition.
 2. Plot Pie and Bar Chart.
 3. Preprocessing image for 10 classes.
+
 4. We utilized Data Augmentation method:Data Augmentation is the technique to generate new sample from the existing sample. So, you can reduce generalization error. It will genrerate natrual sample. There are number of features, which can help you in data agumentation.
-#rotation_range : is a value in degrees (0-180), a range within which to randomly rotate pictures.
-#height_shift_range : Constructor control the amount of horizontal and vertical shift respectively.
-#width_shift_range : Constructor control the amount of horizontal and vertical shift respectively.
-#shear_range : Shear Intensity (Shear angle in counter-clockwise direction in degrees)
-#zoom_range : Range for random zoom
-#horizontal_flip : Randomly filp of input image in horizontally. But we can't use in our case. It can chane the class of images.
-#fill_mode : Points outside the boundaries of the input image are filled according to the given mode. (default Nearest)
-5. #Create a CNN model with 20 epochs. 
+# rotation_range : is a value in degrees (0-180), a range within which to randomly rotate pictures.
+# height_shift_range : Constructor control the amount of horizontal and vertical shift respectively.
+# width_shift_range : Constructor control the amount of horizontal and vertical shift respectively.
+# shear_range : Shear Intensity (Shear angle in counter-clockwise direction in degrees)
+# zoom_range : Range for random zoom
+# horizontal_flip : Randomly filp of input image in horizontally. But we can't use in our case. It can chane the class of images.
+# fill_mode : Points outside the boundaries of the input image are filled according to the given mode. (default Nearest)
+
+5. Create a CNN model with 20 epochs. 
 6. Evaluate Accuracy. 
 7. Set up hyperparameter and variable.
 8. Import the given csv dataset.
 9. Split the train the test data.
 10. Data visualization and overview.
-11. #Building Vanila Model with 4 Convolutional layer:Building the model
+
+11.Building Vanila Model with 4 Convolutional layer:Building the model
 we'll develop the model with a total of 4 Convolutional layers, then a Flatten layer and then 2 Dense layers. we'll use the optimizer as rmsprop, and loss as categorical_crossentropy.
 12. Evaluate the Accuracy.
+
 13. #Improve the model with Data Augmentation:Here we have augmenting the previous model classifier, we have used the data on which I want to train the model. The folder train includes the images I need. I'll generate more images using ImageDataGenerator and split the training data into 80% train and 20% validation split. 
 14. #Improve the model by VGG net transfer learning. 
 
-#Screenshots for Loss Vs Accuracy
+# Screenshots for Loss Vs Accuracy
 
 ![Accuracy1](https://user-images.githubusercontent.com/22896571/70399560-f4919280-19d9-11ea-90ce-a6ff3504cc33.png)
 ![Accuracy3](https://user-images.githubusercontent.com/22896571/70399565-fb200a00-19d9-11ea-8bde-2f6cea94bd15.png)
