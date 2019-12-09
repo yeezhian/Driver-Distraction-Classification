@@ -36,13 +36,13 @@ In DL-CNN-Vanilla-VGGnet.ipynb:
 3. Preprocessing image for 10 classes.
 
 4. We utilized Data Augmentation method:Data Augmentation is the technique to generate new sample from the existing sample. So, you can reduce generalization error. It will genrerate natrual sample. There are number of features, which can help you in data agumentation.
-# rotation_range : is a value in degrees (0-180), a range within which to randomly rotate pictures.
-# height_shift_range : Constructor control the amount of horizontal and vertical shift respectively.
-# width_shift_range : Constructor control the amount of horizontal and vertical shift respectively.
-# shear_range : Shear Intensity (Shear angle in counter-clockwise direction in degrees)
-# zoom_range : Range for random zoom
-# horizontal_flip : Randomly filp of input image in horizontally. But we can't use in our case. It can chane the class of images.
-# fill_mode : Points outside the boundaries of the input image are filled according to the given mode. (default Nearest)
+ rotation_range : is a value in degrees (0-180), a range within which to randomly rotate pictures.
+ height_shift_range : Constructor control the amount of horizontal and vertical shift respectively.
+ width_shift_range : Constructor control the amount of horizontal and vertical shift respectively.
+ shear_range : Shear Intensity (Shear angle in counter-clockwise direction in degrees)
+ zoom_range : Range for random zoom
+ horizontal_flip : Randomly filp of input image in horizontally. But we can't use in our case. It can chane the class of images.
+ fill_mode : Points outside the boundaries of the input image are filled according to the given mode. (default Nearest)
 
 5. Create a CNN model with 20 epochs. 
 6. Evaluate Accuracy. 
