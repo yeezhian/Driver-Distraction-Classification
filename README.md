@@ -62,6 +62,7 @@ we'll develop the model with a total of 4 Convolutional layers, then a Flatten l
 
  # Improve the model with Data Augmentation:
  Here we have augmenting the previous model classifier, we have used the data on which I want to train the model. The folder train includes the images I need. I'll generate more images using ImageDataGenerator and split the training data into 80% train and 20% validation split. 
+ ![Screen Shot 2019-12-08 at 7 55 40 PM](https://user-images.githubusercontent.com/22896571/70406221-d9804c00-19f4-11ea-8fe0-e3694cf590d0.png)
 # Improve the model by VGG net transfer learning
 Transfer Learning  is another interesting paradigm to prevent overfitting. Transfer Learning works by training a network on a big dataset such as ImageNet [12] and then using those weights as the initial weights in a new classification task. Typically, just the weights in convolutional layers are copied, rather than the entire network including fully-connected layers.
 ![Transfer Learning](https://user-images.githubusercontent.com/22896571/70406067-4d6e2480-19f4-11ea-8fbd-5c68d7d2cab2.png)
