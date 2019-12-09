@@ -28,6 +28,11 @@ C8 Hair And Makeup
 
 C9 Talking To Passenger
 
+
+
+
+
+
 We will implement a deep learning model, which will predict the driver activities at the time of driving.
 # Data Augmentation method:
  Data Augmentation is the technique to generate new sample from the existing sample. So, you can reduce generalization error.  It will genrerate natrual sample. There are number of features, which can help you in data agumentation.
@@ -38,20 +43,28 @@ We will implement a deep learning model, which will predict the driver activitie
  zoom_range : Range for random zoom
  horizontal_flip : Randomly filp of input image in horizontally. But we can't use in our case. It can chane the class of images.
  fill_mode : Points outside the boundaries of the input image are filled according to the given mode. (default Nearest)
+ ![Data Augmentation 2](https://user-images.githubusercontent.com/22896571/70406074-5101ab80-19f4-11ea-86c8-90b8d51c2aeb.png)
+ ![DataAugmentation](https://user-images.githubusercontent.com/22896571/70406060-48a97080-19f4-11ea-9f48-519b85811537.png)
+
  
  # CNN Model with Data Augmentation Method
  Deep learning CNN models to train and test, each input image will pass it through a series of convolution layers with filters  (Kernals), Pooling, fully connected layers (FC) and apply Softmax function to classify an object with probabilistic values between 0 and 1. The below figure is a complete flow of CNN to process an input image and classifies the objects based on values.
+ ![CNN Architecture](https://user-images.githubusercontent.com/22896571/70406073-4f37e800-19f4-11ea-9c07-518257fd5d21.png)
+ ![CNN with Augmentation](https://user-images.githubusercontent.com/22896571/70406065-4a733400-19f4-11ea-9866-2a649f1e7862.png)
  
 
 
  
 # Building Vanila Model with 4 Convolutional layer:Building the model
 we'll develop the model with a total of 4 Convolutional layers, then a Flatten layer and then 2 Dense layers. we'll use the optimizer as rmsprop, and loss as categorical_crossentropy.
+![Vanilla Model ](https://user-images.githubusercontent.com/22896571/70406062-49420700-19f4-11ea-8307-efbfa9596f18.png)
+
 
  # Improve the model with Data Augmentation:
  Here we have augmenting the previous model classifier, we have used the data on which I want to train the model. The folder train includes the images I need. I'll generate more images using ImageDataGenerator and split the training data into 80% train and 20% validation split. 
 # Improve the model by VGG net transfer learning
 Transfer Learning  is another interesting paradigm to prevent overfitting. Transfer Learning works by training a network on a big dataset such as ImageNet [12] and then using those weights as the initial weights in a new classification task. Typically, just the weights in convolutional layers are copied, rather than the entire network including fully-connected layers.
+![Transfer Learning](https://user-images.githubusercontent.com/22896571/70406067-4d6e2480-19f4-11ea-8fbd-5c68d7d2cab2.png)
 # Results
 # Screenshots for Loss Vs Accuracy
 
